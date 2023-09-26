@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgba(199, 160, 160, 0.925);
+    height: 500px;
+    width: 600px;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    gap: 80px;
+}
+
+.box {
+    background-color: rgb(245, 229, 229);
+    height: 100px;
+    width: 100px;
+}
+

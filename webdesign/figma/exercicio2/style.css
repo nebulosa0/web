@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Inter:wght@600 & display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 6fr 8fr;
+    height: 700px;
+}
+
+.yellow-box {
+    display: grid;
+    background-color: #FFC700;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    align-content: center;
+    justify-content: center;
+    padding: 80px;
+}
+
+.yellow-box>div {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    font-size: 40px;
+
+}
+
+.art-box {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.yellow-box img {
+    align-self: center;
+}
+
+.yellow-box p {
+    align-self: center;
+}

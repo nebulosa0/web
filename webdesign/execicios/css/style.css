@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+h1 {
+    color: rgb(82, 107, 107);
+    text-align: justify;
+
+}
+
+.solar {
+    color: rgb(248, 156, 70);
+    text-align: center;
+    text-decoration: underline;
+}
+
+.wind {
+    color: rgb(122, 162, 163);
+    text-align: center;
+    text-decoration: underline;
+}
+
+.hydro {
+    color: rgb(153, 151, 151);
+    text-align: center;
+    text-decoration: underline;
+}
+
+.bioenergy {
+    color: darkgreen;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.geothermal {
+    color: rgb(209, 38, 38);
+    text-align: center;
+    text-decoration: underline;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
